@@ -1,0 +1,108 @@
+AI-Based Attack Path Prediction System
+-------------------------------------
+
+1. Introduction
+This project focuses on building an intelligent cybersecurity system that predicts potential attacker movement inside a network. The system models the network as a graph and simulates attacker behavior using structured analysis and AI-based logic.
+
+The goal is to provide a real-time attack analysis tool similar to what is used in Security Operations Centers (SOC).
+
+--------------------------------------------------
+
+2. Objectives
+- To model a network as an attack graph
+- To identify possible attack paths
+- To calculate risk scores for each path
+- To predict the attacker’s next move
+- To visualize attack paths and predictions
+- To support real-time monitoring and updates
+
+--------------------------------------------------
+
+3. System Architecture
+The system is divided into multiple modules:
+
+Graph Engine:
+Builds the network attack graph using nodes and edges.
+
+Prediction Engine:
+Generates attack paths, scores them, and predicts attacker movement.
+
+Output Engine:
+Structures the results for display and future use.
+
+Real-Time Engine:
+Monitors changes in input data and updates results dynamically.
+
+Visualization Engine:
+Displays the attack graph and highlights attack paths.
+
+--------------------------------------------------
+
+4. Methodology
+
+Step 1: Data Collection
+- Input is taken from network data or scan results.
+
+Step 2: Graph Construction
+- Hosts and vulnerabilities are represented as nodes.
+- Connections are represented as edges.
+
+Step 3: Attack Path Generation
+- All possible paths from entry points to critical systems are generated.
+
+Step 4: Risk Scoring
+- Each path is assigned a risk score based on:
+  - Criticality
+  - Path length
+
+Step 5: Prediction
+- The system predicts the next attacker move using rule-based logic.
+
+Step 6: Visualization
+- The graph is displayed with highlighted attack paths.
+
+--------------------------------------------------
+
+5. Features
+- Graph-based attack modeling
+- AI-based attacker prediction
+- Real-time monitoring
+- Structured output system
+- Visualization of attack paths
+
+--------------------------------------------------
+
+6. Technologies Used
+- Python
+- NetworkX
+- Matplotlib
+- VMware (for lab setup)
+- Kali Linux (for reconnaissance simulation)
+
+--------------------------------------------------
+
+7. Real-Time Integration
+The system supports real-time updates by monitoring input data. When new data is detected, the system automatically updates the attack graph and predictions.
+
+--------------------------------------------------
+
+8. Applications
+- Cybersecurity research
+- SOC simulation
+- Threat analysis
+- Academic learning
+
+--------------------------------------------------
+
+9. Future Enhancements
+- Machine Learning-based prediction
+- GUI dashboard
+- Integration with real network scanners
+- SIEM integration
+
+--------------------------------------------------
+
+10. Conclusion
+This project successfully demonstrates how attack graphs and AI techniques can be used to predict attacker behavior. It provides a strong foundation for real-world cybersecurity tools and advanced threat analysis systems.
+
+--------------------------------------------------
