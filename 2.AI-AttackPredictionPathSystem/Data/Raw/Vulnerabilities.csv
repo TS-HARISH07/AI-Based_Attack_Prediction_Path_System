@@ -1,3 +1,0 @@
-vuln_id , host_id , severity , exploitability , requires_auth
-CVE-2023-1234 , H1 , 7.5 , high , no
-CVE-2022-5678 , H2 , 8.8 , medium , yes
