@@ -1,0 +1,4 @@
+host_id , hostname , ip_address , os , role , privilege_level , criticality
+H1 , User-PC , 192.168.1.10 , Windows , workstation , low , 3
+H2 , File-Server , 192.168.1.20 , Linux , server , medium , 6
+H3 , Domain-Controller , 192.168.1.30 , Windows , dc , high , 9
